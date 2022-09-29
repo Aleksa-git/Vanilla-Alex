@@ -27,6 +27,7 @@
       src="https://kit.fontawesome.com/e57d679f44.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="main container">
@@ -36,18 +37,28 @@
             <div class="col currentsity">
               <i class="fa-solid fa-cloud-showers-heavy bigshowers-heavy"></i>
               <br />
-              <h2>Paris</h2>
-              <h4>light rain</h4>
+              <h2 id="city"></h2>
+              <h4 id="description"></h4>
               <h4>Saturday 15:56</h4>
             </div>
             <div class="col currenttemperature">
-              <h1>33°C/°F</h1>
-              <h5><i class="fa-solid fa-droplet"></i> 80%</h5>
-              <h5><i class="fa-solid fa-wind"></i> 5 km/h</h5>
+              <h1 id="temperature"></h1>
+              <h5>
+                <i class="fa-solid fa-droplet"></i> <span id="humidity"></span>%
+              </h5>
+              <h5>
+                <i class="fa-solid fa-wind"></i> <span id="wind"></span> km/h
+              </h5>
             </div>
           </div>
         </div>
       </div>
+      <small>
+        <a href="https://github.com/Aleksa-git/Vanilla-Alex" target="blank"
+          >Open-source code</a
+        >
+        by Alexa Kulish</small
+      >
     </div>
     <script src="src/app.js"></script>
   </body>
