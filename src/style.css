@@ -51,3 +51,10 @@ p {
 #description {
   text-transform: capitalize;
 }
+.currenttemperature.active {
+  color: black;
+  cursor: default;
+}
+.currenttemperature.active:hover {
+  text-decoration: none;
+}
