@@ -27,6 +27,10 @@ h5 {
 p {
   margin-bottom: 4px;
 }
+a {
+  text-decoration: none;
+  color: hsl(240, 4%, 50%);
+}
 .container {
   margin-top: 50px;
   display: block;
@@ -57,4 +61,7 @@ p {
 }
 .currenttemperature.active:hover {
   text-decoration: none;
+}
+.weather-forecast {
+  text-align: center;
 }
